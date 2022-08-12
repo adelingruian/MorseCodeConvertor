@@ -6,7 +6,7 @@ user_input = input("Type in the phrase you want to translate:")
 user_input = user_input.upper()
 
 
-def reproduce_morse_code(code :str):
+def reproduce_morse_code(code: str):
     for char in code:
         if char == '.':
             winsound.Beep(1000, 100)
